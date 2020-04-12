@@ -1,9 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: url ();
-  background-size: cover;
-  background-position: center;
+  background-image: url("images/food.jpg");
+  background-image: cover;
   font-family: sans-serif;
 }
 
@@ -70,9 +69,7 @@ input[type="password"] {
   font-size: 16px;
 }
 
-
-.loginbox input[type="submit"]
-{
+.loginbox input[type="submit"] {
   border: none;
   outline: none;
   height: 40px;
@@ -82,8 +79,7 @@ input[type="password"] {
   border-radius: 20px;
 }
 
-.loginbox input[type="submit"]:hover
-{
+.loginbox input[type="submit"]:hover {
   cursor: pointer;
   background: #ffc107;
   color: #000;
@@ -96,7 +92,6 @@ input[type="password"] {
   color: darkgrey;
 }
 
-.loginbox a:hover
-{
-  color:#ffc107
+.loginbox a:hover {
+  color: #ffc107;
 }
